@@ -6,7 +6,7 @@ public class Customer {
     public static int[] cupSizes;
 
     private enum DrinkType {Water, Beer}
-    public enum CupType {ExtraSmall, Small, Medium, Large}
+    public enum CupType {Large, Medium, Small, ExtraSmall}
     private String name;
     private int age;
     private int foot;
@@ -26,7 +26,7 @@ public class Customer {
     }
 
     private void setHeight() {
-        this.height = foot + inch / 12;
+        this.height = foot + (inch / 12.0);
     }
 
     private void setCupType() {
@@ -69,6 +69,10 @@ public class Customer {
 
     public int getInch() {
         return inch;
+    }
+
+    public double getHeight() {
+        return height;
     }
 
     @Override

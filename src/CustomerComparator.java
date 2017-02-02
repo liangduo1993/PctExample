@@ -13,14 +13,10 @@ public class CustomerComparator implements Comparator<Customer> {
             Customer.CupType cup1 = o1.getCup();
             Customer.CupType cup2 = o2.getCup();
             if (cup1 == cup2) {
-                int foot1 = o1.getFoot();
-                int foot2 = o2.getFoot();
-                if (foot1 == foot2) {
-                    int inch1 = o1.getInch();
-                    int inch2 = o2.getInch();
-                    return inch1 - inch2;
-                }
-                return foot1 - foot2;
+                double h1 = o1.getHeight();
+                double h2 = o2.getHeight();
+                double result = h2 - h1;
+                return (result > 0) ? 1 : -1;
             }
             return cup1.compareTo(cup2);
         }
