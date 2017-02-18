@@ -1,0 +1,18 @@
+9
+prithviraj raj
+shashi sanjana
+prithviraj shashi
+raj randhir
+rishi ranveer
+randhir bebo
+randhir lolo
+raj rishi
+rishi ridhima
+7
+bebo descendant shashi
+raj sibling shashi
+prithviraj ancestor ridhima
+lolo sibling ridhima
+bebo ancestor shashi
+prithviraj ancestor raj
+rishi descendant raj

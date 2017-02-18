@@ -1,0 +1,16 @@
+8
+motilal jawahar
+jawahar indira
+motilal kamala
+indira sanjay
+sanjay varun
+indira rajiv
+rajiv priyanka
+rajiv rahul
+6
+motilal child jawahar
+varun descendant indira
+priyanka sibling varun
+sanjay child indira
+sanjay ancestor varun
+kamala ancesor rahul

@@ -1,0 +1,17 @@
+7
+A B
+A C
+B D
+D F
+B E
+D G
+C H
+8
+A child B
+B parent D
+F sibling G
+A ancestor G
+C ancestor G
+G descendant C
+G descendant A
+H descendant B
