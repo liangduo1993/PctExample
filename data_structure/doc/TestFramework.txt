@@ -1,0 +1,17 @@
+Using JUnit to provide unit test, in order to add the JUnit framework please do the following job:
+
+// for Maven user, add following line in pom.xml
+<dependencies>
+  <dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>4.12</version>
+    <scope>test</scope>
+  </dependency>
+</dependencies>
+
+// for Gradle user, add following line in build.gradle
+apply plugin: 'java'
+dependencies {
+  testCompile 'junit:junit:4.12'
+}
