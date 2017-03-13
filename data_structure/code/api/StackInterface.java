@@ -13,5 +13,4 @@ public interface StackInterface<E> {
 
     boolean isEmpty();
 
-    void setCapacity(int capacity);
 }
